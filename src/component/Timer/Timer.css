@@ -1,0 +1,38 @@
+.timer-container {
+  text-align: center;
+}
+.count-down-time {
+  padding: 80px;
+  margin: 80px 240px;
+  color: #ffff;
+}
+.count-down-time span {
+  font-size: 60px;
+
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 960px) {
+  .count-down-time {
+    padding: 40px;
+    margin: 0 !important;
+  }
+  .count-down-time span {
+    font-size: 40px;
+    margin: 6px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .count-down-time {
+    padding: 40px;
+    margin: 0 !important;
+  }
+  .count-down-time span {
+    font-size: 40px;
+    margin: 6px;
+  }
+}
